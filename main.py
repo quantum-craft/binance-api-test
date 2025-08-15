@@ -14,7 +14,7 @@ from binance_sdk_derivatives_trading_usds_futures.rest_api.models import (
 )
 
 
-# load_dotenv(".env")
+load_dotenv(".env")
 
 
 # Configure logging
