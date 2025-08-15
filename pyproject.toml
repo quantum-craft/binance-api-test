@@ -1,0 +1,13 @@
+[project]
+name = "binance-api-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "binance-sdk-derivatives-trading-usds-futures",
+    "dotenv>=0.9.9",
+]
+
+[tool.uv.sources]
+binance-sdk-derivatives-trading-usds-futures = { path = "binance-connector-python/clients/derivatives_trading_usds_futures", editable = true }
