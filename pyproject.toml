@@ -10,4 +10,9 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-binance-sdk-derivatives-trading-usds-futures = { path = "binance-connector-python/clients/derivatives_trading_usds_futures", editable = true }
+binance-sdk-derivatives-trading-usds-futures = { workspace = true }
+
+[tool.uv.workspace]
+members = [
+    "binance-connector-python/clients/derivatives_trading_usds_futures",
+]
