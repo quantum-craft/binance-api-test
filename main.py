@@ -35,7 +35,7 @@ client = DerivativesTradingUsdsFutures(config_rest_api=configuration_rest_api)
 
 async def new_order():
     while True:
-        await asyncio.sleep(10)
+        await asyncio.sleep(3)
 
         try:
             start_time = time.time()
