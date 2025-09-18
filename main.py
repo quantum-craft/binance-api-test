@@ -46,7 +46,7 @@ async def new_order():
                 type="LIMIT",
                 time_in_force=NewOrderTimeInForceEnum["GTC"].value,
                 quantity=0.1,
-                price=10000,  # impossible price on 2025/08/15
+                price=10,  # impossible price on 2025/08/15
             )
 
             end_time = time.time()
